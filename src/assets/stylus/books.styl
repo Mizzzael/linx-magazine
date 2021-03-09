@@ -6,7 +6,38 @@
     cursor pointer
     &:hover
         box-shadow 0 2px 3px #000000
-        transform translateY(-10px)
+
+.book\\.navigation
+    height 60px
+    width 60px
+    border solid 1px #2e183b
+    color #2e183b
+    transition 220ms all ease
+    &\\:prev
+        transform translateX(-70px)
+    &\\:next
+        transform translateX(70px)
+    &:focus
+        outline none
+    &:hover
+        border-color #f0462d
+        color #f0462d
+        background-color #fff
+
+.book\\.close
+    border solid 1px #2e183b
+    color #2e183b
+    width 40px
+    height 40px
+    line-height 10px !important
+    transition 220ms all ease
+    &:focus
+        outline none
+    &:hover
+        border-color #f0462d
+        color #f0462d
+        transition 220ms all ease
+        background-color #fff
 
 @media only screen and (min-height: 768px)
     .book\\.canvas

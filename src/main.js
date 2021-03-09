@@ -4,7 +4,10 @@ import router from "./router";
 import store from "./store";
 
 import "./assets/css/tailwindcss.bundle.css"
+import "./assets/css/jquery.range.css"
 import "../node_modules/font-awesome/css/font-awesome.min.css"
+
+import "imagesloaded"
 
 Vue.config.productionTip = false;
 

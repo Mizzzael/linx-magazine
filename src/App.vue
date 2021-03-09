@@ -11,7 +11,11 @@
     min-height 100vh
     height 100vh
 
-@media only screen and (min-width: 1400px)
+@media only screen and (min-width: 960px)
+    .screen
+        max-width 960px
+
+@media only screen and (min-width: 1300px)
     .screen
         max-width 1200px
 
