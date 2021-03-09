@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Horizon-nMeM';
+  src: url('Horizon-nMeM.eot');
+  src: url('Horizon-nMeM.eot?#iefix') format('embedded-opentype'),
+       url('Horizon-nMeM.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'horizon';
+  src: url('horizon.svg#horizon') format('svg'),
+       url('horizon.ttf') format('truetype'),
+       url('horizon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
