@@ -70,10 +70,10 @@
                 </button>
                 <section :id="`${ID}-thumb-canvas`" class="w-full opacity-0">
                     <section class="bg-white book-page book-cap"></section>
-                    <section class="bg-white book-page">Ishikey</section>
-                    <section class="bg-white book-page">Shunya Yamashit</section>
-                    <section class="bg-white book-page">Yusuke Murata</section>
-                    <section class="bg-white book-page">Gall Force</section>
+                    <section class="bg-white book-page"></section>
+                    <section class="bg-white book-page"></section>
+                    <section class="bg-white book-page"></section>
+                    <section class="bg-white book-page"></section>
                 </section>
             </section>
         </section>
