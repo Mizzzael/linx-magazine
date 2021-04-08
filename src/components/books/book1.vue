@@ -70,10 +70,50 @@
                 </button>
                 <section :id="`${ID}-thumb-canvas`" class="w-full opacity-0">
                     <section class="bg-white book-page book-cap"></section>
-                    <section class="bg-white book-page"></section>
-                    <section class="bg-white book-page"></section>
-                    <section class="bg-white book-page"></section>
-                    <section class="bg-white book-page"></section>
+                    <section class="bg-gray-200 book-page"></section>
+                    <section class="bg-gray-50 book-page flex flex-wrap items-center justify-center relative">
+                        <section class="w-10/12 mx-auto px-4 py-2">
+                            <h4 class="text-4xl text-orange-500 my-2 py-2">
+                                Introdução
+                            </h4>
+                            <p class="text-justify text-gray-800 text-lg">
+                                O Performance Index da Linx Digital, irá te ajudar a acompanhar mensalmente todas as novidades, status, crescimento e tendências de nossos clientes, quando o assunto é performance. Buscamos neste formato trazer o máximo de informações possível, mas sem o peso de comunicações oficiais e formatos engessados. Por isso além de ser a estreia da nossa primeira revista, queremos te convidar para participar da próxima e trazer assuntos da sua área ou temas que você gostaria de acompanhar por aqui. 
+                            </p>
+                            <p class="text-orange-400 text-md text-left my-2">
+                                Ps: prometo que daremos os créditos, rs.*
+                            </p>
+                        </section>
+                        <footer class="absolute bottom-0 left-0 w-full">
+                            <section class="w-10/12 mx-auto px-4 py-2">
+                                <p class="text-4xl text-purple-500 mb-8">
+                                    Bora lá acompanhar? 👍
+                                </p>
+                            </section>
+                        </footer>
+                    </section>
+                    <section class="bg-gray-50 book-page">
+                        <section class="w-10/12 mx-auto px-4 py-2">
+                            <h4 class="text-3xl text-orange-500 my-2 py-1 px-8 border-l-2 border-purple-400">
+                                Como não falar do impacto do Covid-19 em nossas soluções né?
+                            </h4>
+                            <h5 class="text-xl text-gray-700 my-8 py-1 px-8 text-center uppercase">
+                                “Como não falar do impacto do Covid-19 em nossas soluções né?”
+                            </h5>
+                            <p class="text-justify text-gray-800 text-lg">
+                                Em 2020 sabemos que com as lojas fechadas por conta da pandemia, nossa soluções tiveram alta nos resultados, pois todos os consumidores de nossos clientes, procuraram canais online para realizarem suas compras.
+                                <br />
+                                Mas a pergunta é, você sabe como se mantiveram esses resultados por segmento?  Não né? Eu já imaginava... Mas estamos aqui para isso... bora ver:
+                            </p>
+                        </section>
+                        <section class="w-11/12 mx-auto">
+                            <img class="w-10/12 mx-auto" src="https://www.ecommercebrasil.com.br/wp-content/uploads/2019/10/Ranking-Brasil-Doing-Business.png" alt="">
+                        </section>
+                    </section>
+                    <section class="bg-white book-page flex flex-wrap items-center justify-center ">
+                        <a class="cursor-pointer" href="https://www.doutorecommerce.com.br/wp-content/uploads/2013/09/Infografico-adaptado1.jpg" target="_blank">
+                            <img class="w-8/12 mx-auto" src="https://www.doutorecommerce.com.br/wp-content/uploads/2013/09/Infografico-adaptado1.jpg" alt="">
+                        </a>
+                    </section>
                 </section>
             </section>
         </section>
