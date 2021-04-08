@@ -18,7 +18,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       white: colors.white,
-      gray: colors.blueGray,
+      gray: colors.gray,
       red: colors.red,
       emerald: colors.emerald,
       green: colors.green,
@@ -32,6 +32,13 @@ module.exports = {
           "400": "#ffb200",
           "500": "#f0462d"
       }
+    },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
     }
   },
   variants: {

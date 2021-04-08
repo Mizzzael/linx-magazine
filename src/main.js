@@ -13,9 +13,14 @@ Vue.config.productionTip = false;
 
 Vue.mixin({
     methods: {
-        particules(id, callback = function(){}) {
-            window.particlesJS.load(id, '/assets/plugin/particlesjs-config.json', callback);
-        }
+        proportion(xp, yp, y) {
+            let xxy = xp * y
+            let xw = xxy/yp;
+            return {
+                width: xw,
+                height: y
+            }
+        },
     }
 });
 
